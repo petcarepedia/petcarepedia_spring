@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="http://localhost:9000/petcarepedia/css/mypage.css">
+<link rel="stylesheet" href="http://localhost:9000/petcarepedia/resources/css/mypage.css">
 <link rel="stylesheet" href="http://localhost:9000/petcarepedia/css/petcarepedia_song.css">
 <script src="http://localhost:9000/petcarepedia/js/jquery-3.6.4.min.js"></script>
 <script src="http://localhost:9000/petcarepedia/js/petcarepedia_jquery_song.js"></script>
@@ -22,11 +22,11 @@
 					<nav>
 						<ul>
 							<li>마이페이지</li>
-							<li><a href = "http://localhost:9000/petcarepedia/mypage/information.jsp">회원 정보</a></li>
-							<li><a href = "http://localhost:9000/petcarepedia/mypage/reservation.jsp">예약 내역</a></li>
-							<li><a href = "http://localhost:9000/petcarepedia/mypage/my_review.jsp">내가 쓴 리뷰</a></li>
-							<li><a href = "http://localhost:9000/petcarepedia/mypage/bookmark.jsp">즐겨찾기</a></li>
-							<li><a href = "http://localhost:9000/petcarepedia/mypage/signout.jsp">회원 탈퇴</a></li>
+							<li><a href = "http://localhost:9000/petcarepedia/information.do">회원 정보</a></li>
+							<li><a href = "http://localhost:9000/petcarepedia/reservation.do">예약 내역</a></li>
+							<li><a href = "http://localhost:9000/petcarepedia/my_review.do">내가 쓴 리뷰</a></li>
+							<li><a href = "http://localhost:9000/petcarepedia/bookmark.do">즐겨찾기</a></li>
+							<li><a href = "http://localhost:9000/petcarepedia/signout.do">회원 탈퇴</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -39,11 +39,11 @@
 						<span>
 							<span>강남구</span>
 						</span>
-						<img src = "http://localhost:9000/petcarepedia/images/cat.png">
+						<img src = "http://localhost:9000/petcarepedia/resources/images/cat.png">
 						<span>과테말라 냥이</span>
 					</div>
 					<div id = "aside2">
-						<img src = "http://localhost:9000/petcarepedia/images/hos.png">
+						<img src = "http://localhost:9000/petcarepedia/resources/images/hos.png">
 					</div>
 					<div id = "aside3">
 						<span>동물 종류 : 고양이</span>
@@ -64,11 +64,11 @@
 						<span>
 							<span>강남구</span>
 						</span>
-						<img src = "http://localhost:9000/petcarepedia/images/cat.png">
+						<img src = "http://localhost:9000/petcarepedia/resources/images/cat.png">
 						<span>과테말라 냥이</span>
 					</div>
 					<div id = "aside2">
-						<img src = "http://localhost:9000/petcarepedia/images/hos.png">
+						<img src = "http://localhost:9000/petcarepedia/resources/images/hos.png">
 					</div>
 					<div id = "aside3">
 						<span>동물 종류 : 고양이</span>

@@ -5,7 +5,7 @@ $(document).ready(function(){
 		mypage - 회원정보페이지(수정하기)버튼
 ********************************************/
 	$("#btn_style1").click(function(){
-		location.href = "http://localhost:9000/petcarepedia/mypage/revise.jsp";
+		location.href = "http://localhost:9000/petcarepedia/revise.do";
 	});
 	
 /*******************************************************************************
