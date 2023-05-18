@@ -32,15 +32,15 @@
 					<table class="table">
 						<tr>
 							<th>병원명</th>
-							<td><input type="text" name="name" id = "name"></td>
+							<td><input type="text" name="name" id = "name" value="멍멍동물병원"></td>
 						</tr>
 						<tr>
 							<th>위치</th>
-							<td><input type="text" name="address" id="address"></td>
+							<td><input type="text" name="address" id="address" value="서울시 강남구 역삼동"></td>
 						</tr>
 						<tr>
 							<th>전화번호</th>
-							<td><input type="text" name="phone" id="phone"> </td>
+							<td><input type="text" name="phone" id="phone" value="02-1234-1234"></td>
 						</tr>
 						<tr>
 							<th>영업시간</th>
@@ -52,11 +52,11 @@
 						</tr>
 						<tr>
 							<th>휴무일</th>
-							<td><input type="text" name="close" id="close" placeholder ="매주  요일"> </td>
+							<td><input type="text" name="close" id="close" placeholder ="매주  요일" value="알요일, 공휴일"></td>
 						</tr>
 						<tr>
 							<th>취급 동물</th>
-							<td><input type="text" name="animal" id="animal"> </td>
+							<td><input type="text" name="animal" id="animal" value="강아지"></td>
 						</tr>
 						<tr>
 							<th>강조사항(선택)</th>

@@ -5,11 +5,11 @@
 <head>
 <meta charset="UTF-8">
 <title>Member - List</title>
-<link rel="stylesheet" href="http://localhost:9000/animal/css/admin.css">
+<link rel="stylesheet" href="http://localhost:9000/animal/css/admin1.css">
 </head>
 <body>
 <!-- header -->
-	<iframe width="100%" height="100px" frameborder=0></iframe>
+	<iframe src="http://localhost:9000/petcarepedia/header.jsp" width="100%" height="100px" frameborder=0></iframe>
 	<div class="d1">
 		<section class="member_detail">
 			<section id = "section1">
@@ -17,11 +17,11 @@
 					<nav>
 						<ul>
 							<li>회원관리</li>
-							<li><a href = "http://localhost:9000/animal/admin/hospital/hospital_list.jsp">병원 관리</a></li>
-							<li><a href = "http://localhost:9000/animal/admin/member/member_list.jsp">회원 관리</a></li>
-							<li><a href = "http://localhost:9000/animal/admin/reserve/reserve_list.jsp">예약 관리</a></li>
-							<li><a href = "http://localhost:9000/animal/admin/review/review_list.jsp">신고 리뷰 관리</a></li>
-							<li><a href = "http://localhost:9000/animal/admin/review/review_list.jsp">공지 사항 관리</a></li>
+							<li><a href = "http://localhost:9000/petcarepedia/admin/hospital/hospital_list.jsp">병원 관리</a></li>
+							<li><a href = "http://localhost:9000/petcarepedia/admin/member/member_list.jsp">회원 관리</a></li>
+							<li><a href = "http://localhost:9000/petcarepedia/admin/reserve/reserve_list.jsp">예약 관리</a></li>
+							<li><a href = "http://localhost:9000/petcarepedia/admin/review/review_list.jsp">신고 리뷰 관리</a></li>
+							<li><a href = "http://localhost:9000/petcarepedia/admin/admin_notice/admin_notice.jsp">공지 사항 관리</a></li>
 							<li><a href = "#">나가기</a></li>
 						</ul>
 					</nav>
