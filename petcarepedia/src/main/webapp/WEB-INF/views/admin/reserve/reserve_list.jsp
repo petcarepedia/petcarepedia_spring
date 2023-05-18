@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Reserve_List</title>
-<link rel="stylesheet" href="http://localhost:9000/animal/css/admin.css">
+<link rel="stylesheet" href="http://localhost:9000/petcarepedia/css/admin1.css">
 </head>
 <body>
 <!-- header -->
@@ -17,11 +17,11 @@
 					<nav>
 						<ul>
 							<li>예약관리</li>
-							<li><a href = "http://localhost:9000/animal/admin/hospital/hospital_list.jsp">병원 관리</a></li>
-							<li><a href = "http://localhost:9000/animal/admin/member/member_list.jsp">회원 관리</a></li>
-							<li><a href = "http://localhost:9000/animal/admin/reserve/reserve_list.jsp">예약 관리</a></li>
-							<li><a href = "http://localhost:9000/animal/admin/review/review_list.jsp">신고 리뷰 관리</a></li>
-							<li><a href = "http://localhost:9000/animal/admin/review/review_list.jsp">공지 사항 관리</a></li>
+							<li><a href = "http://localhost:9000/petcarepedia/admin/hospital/hospital_list.jsp">병원 관리</a></li>
+							<li><a href = "http://localhost:9000/petcarepedia/admin/member/member_list.jsp">회원 관리</a></li>
+							<li><a href = "http://localhost:9000/petcarepedia/admin/reserve/reserve_list.jsp">예약 관리</a></li>
+							<li><a href = "http://localhost:9000/petcarepedia/admin/review/review_list.jsp">신고 리뷰 관리</a></li>
+							<li><a href = "http://localhost:9000/petcarepedia/admin/admin_notice/admin_notice.jsp">공지 사항 관리</a></li>
 							<li><a href = "#">나가기</a></li>
 						</ul>
 					</nav>
@@ -31,7 +31,7 @@
 			
 				<div class="d2">
 					<input type="text" class="search_bar" placeholder="회원아이디 입력">
-					<button class="button1"><img src="http://localhost:9000/animal/css/foot_sky.png"></button>
+					<button class="button1"><img src="http://localhost:9000/petcarepedia/images/foot_sky.png"></button>
 				</div>
 				<table class="table">
 					<tr>
@@ -132,7 +132,7 @@
 					</tr>
 					<tr>
 						<td colspan="6" >
-							<button type="button" class="button4" ><a href="http://localhost:9000/animal/admin/hospital/hospital_list.jsp">이전으로</a></button>
+							<button type="button" class="button4" ><a href="http://localhost:9000/petcarepedia/admin/hospital/hospital_list.jsp">이전으로</a></button>
 						</td>
 					</tr>
 				</table>
@@ -140,6 +140,6 @@
 		</section>
 	</div>
 	<!-- footer -->
-		<iframe  width="100%" height="350px" frameborder=0></iframe>
+		<iframe src="http://localhost:9000/petcarepedia/footer.jsp" width="100%" height="350px" frameborder=0></iframe>
 </body>
 </html>
