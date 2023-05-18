@@ -5,10 +5,9 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="http://localhost:9000/petcarepedia/css/mypage.css">
-<link rel="stylesheet" href="http://localhost:9000/petcarepedia/css/petcarepedia_song.css">
+<link rel="stylesheet" href="http://localhost:9000/petcarepedia/resources/css/mypage.css">
+<link rel="stylesheet" href="http://localhost:9000/petcarepedia/resources/css/petcarepedia_song.css">
 <script src="http://localhost:9000/petcarepedia/js/jquery-3.6.4.min.js"></script>
-<script src="http://localhost:9000/petcarepedia/js/petcarepedia_jquery_song.js"></script>
 <script src="http://localhost:9000/petcarepedia/js/petcarepedia_jquery_yeol.js"></script>
 </head>
 <body>
@@ -24,26 +23,26 @@
 						<nav>
 							<ul>
 								<li>마이페이지</li>
-								<li><a href = "http://localhost:9000/petcarepedia/mypage/information.jsp">회원 정보</a></li>
-								<li><a href = "http://localhost:9000/petcarepedia/mypage/reservation.jsp">예약 내역</a></li>
-								<li><a href = "http://localhost:9000/petcarepedia/mypage/my_review.jsp">내가 쓴 리뷰</a></li>
-								<li><a href = "http://localhost:9000/petcarepedia/mypage/bookmark.jsp">즐겨찾기</a></li>
-								<li><a href = "http://localhost:9000/petcarepedia/mypage/signout.jsp">회원 탈퇴</a></li>
+								<li><a href = "http://localhost:9000/petcarepedia/information.do">회원 정보</a></li>
+							<li><a href = "http://localhost:9000/petcarepedia/reservation.do">예약 내역</a></li>
+							<li><a href = "http://localhost:9000/petcarepedia/my_review.do">내가 쓴 리뷰</a></li>
+							<li><a href = "http://localhost:9000/petcarepedia/bookmark.do">즐겨찾기</a></li>
+							<li><a href = "http://localhost:9000/petcarepedia/signout.do">회원 탈퇴</a></li>
 							</ul>
 						</nav>
 					</div>
 				</section>
 				<div id = "aside">
 					<section>
-						<img src = "http://localhost:9000/petcarepedia/images/cat.png">
+						<img src = "http://localhost:9000/petcarepedia/resources/images/cat.png">
 						<span>과테말라 냥이</span>
 						<span>의사의 진료는 어떠셨나요?</span>
 						<span>별점을 선택해주세요</span>
-						<!-- <img src = "http://localhost:9000/petcarepedia/images/star.png">
-						<img src = "http://localhost:9000/petcarepedia/images/star.png">
-						<img src = "http://localhost:9000/petcarepedia/images/star.png">
-						<img src = "http://localhost:9000/petcarepedia/images/star.png">
-						<img src = "http://localhost:9000/petcarepedia/images/star.png"> -->
+						<!-- <img src = "http://localhost:9000/petcarepedia/resources/images/star.png">
+						<img src = "http://localhost:9000/petcarepedia/resources/images/star.png">
+						<img src = "http://localhost:9000/petcarepedia/resources/images/star.png">
+						<img src = "http://localhost:9000/petcarepedia/resources/images/star.png">
+						<img src = "http://localhost:9000/petcarepedia/resources/images/star.png"> -->
 						<div id = "star">
 							<fieldset>
 								<input type="radio" name="reviewStar" value="5" id="rate1"><label
@@ -59,11 +58,11 @@
 							</fieldset>
 						</div>
 						<!-- <span>치료에 대한 자세한 설명</span> -->
-						<!-- <img src = "http://localhost:9000/petcarepedia/images/star.png">
-						<img src = "http://localhost:9000/petcarepedia/images/star.png">
-						<img src = "http://localhost:9000/petcarepedia/images/star.png">
-						<img src = "http://localhost:9000/petcarepedia/images/star.png">
-						<img src = "http://localhost:9000/petcarepedia/images/star.png"> -->
+						<!-- <img src = "http://localhost:9000/petcarepedia/resources/images/star.png">
+						<img src = "http://localhost:9000/petcarepedia/resources/images/star.png">
+						<img src = "http://localhost:9000/petcarepedia/resources/images/star.png">
+						<img src = "http://localhost:9000/petcarepedia/resources/images/star.png">
+						<img src = "http://localhost:9000/petcarepedia/resources/images/star.png"> -->
 					</section>
 					<textarea name="review" placeholder="진료에 대한 경험을 진솔하게 작성해주세요(30~50자내)"></textarea>
 					<button type = "button" id = "cancle">취소</button>
